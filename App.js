@@ -16,7 +16,6 @@ const Stack = createStackNavigator();
 
 
 export default function App() {
-const handleNextQuestion = (num) => num + 1;
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Game" screenOptions={{
